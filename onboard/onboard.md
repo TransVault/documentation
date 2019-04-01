@@ -6,15 +6,15 @@ There are three stages to go through to get started with ACS Onboarding, and the
 
 ### Agents and configuration
 
-At least one agent has to be deployed to a on-premise server in order to use the onboarding features. Don't worry though, it's really easy to setup and configure. The instructions are covered in this [section](newindex.md#deploying-an-agent).
+At least one agent has to be deployed to a on-premise server in order to use the onboarding features. Don't worry though, it's really easy to setup and configure. The instructions are covered in this [section](index.md#deploying-an-agent).
 
 ### Creating a workflow
 
-After the agent is properly configured the next step is to create a workflow. The instructions are covered in this [section](newindex.md#creating-a-workflow).
+After the agent is properly configured the next step is to create a workflow. The instructions are covered in this [section](index.md#creating-a-workflow).
 
 ### Mapping the first user
 
-The final step in using Onboarding is to map a test (or pilot) user. The instructions are covered in this [section](newindex.md#mapping-a-pilot-user).
+The final step in using Onboarding is to map a test (or pilot) user. The instructions are covered in this [section](index.md#mapping-a-pilot-user).
 
 ## Deploying an agent
 
@@ -124,7 +124,7 @@ This process takes place on the Mappings tab in the user interface.
 
 The mappings page shows a list of your on-premises users. You can use the search box to quickly locate the user you wish to process.  Once you've located the user. Select the checkbox next to that user, and click on the 'Map' button above the data grid.
 
-**Note**: You can not map an already mapped user.
+**Note**: You cannot map an already mapped user.
 
 ### Mapping the user
 
@@ -156,7 +156,7 @@ If a batch is selected in the top data table, then the bottom of the screen show
 
 We've added some predefined templates to help with creating batches. These are based on Active Directory properties. Groups can also be created manually. We've made it super flexible to even pick some people from a particular group and create a batch of just those users!
 
-### Monitoring progress
+## Monitoring progress
 
 There are three places that the progress of a mapping and of the overall onboarding project can be seen. These are described below.
 

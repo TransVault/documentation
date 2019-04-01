@@ -12,7 +12,7 @@ c:\docfx\docfx.exe c:\docs\docfx.json --serve
 
 ## Atom
 
-Atom is a third-party text editor that supports Markdown, you can download the program from [here](https://atom.io/ "Install Atom")
+Atom is a third-party text editor that supports Markdown, you can download the program from [here](https://atom.io/ "Install Atom").
 
 Once Atom is installed run the following from a command prompt or terminal.  This will install some useful packages that will assist in the formatting of your documentation.
 ```
@@ -31,3 +31,9 @@ You will need to clone our repo by TBD.
 ## GitHub
 
 "Ctrl-Shift-9" can be used to toggle the GitHub pane within Atom.
+
+Any saved changes made to the documentation will appear in Git as
+
+![Unstaged Changes](img\Unstaged-changes.jpg)
+
+https://github.com/TransVault/documentation
