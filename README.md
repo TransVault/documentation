@@ -34,6 +34,6 @@ You will need to clone our repo by TBD.
 
 Any saved changes made to the documentation will appear in Git as
 
-![Unstaged Changes](img\Unstaged-changes.jpg)
+![Unstaged Changes](img/Unstaged-changes.jpg)
 
 https://github.com/TransVault/documentation
