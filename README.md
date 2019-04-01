@@ -2,7 +2,7 @@
 We use DocFX for our help and documentation side of things.
 
 ## [DocFX](https://dotnet.github.io/docfx/)
-You can download the zip package of the precompiled binaries if you would like to play from [here](https://github.com/dotnet/docfx/releases).
+You can download the zip package of the precompiled binaries if you would like to play from [here](https://github.com/dotnet/docfx/releases "DocFX Installer").
 
 To build the project, call the DocFX binary and point it to the repository ```docfx.json``` file and use the parameter ```--serve``` to spawn a web-service that listens on [http://localhost:8080](http://localhost:8080) E.G.
 
@@ -12,21 +12,22 @@ c:\docfx\docfx.exe c:\docs\docfx.json --serve
 
 ## Atom
 
-Intro to Atom.  
+Atom is a third-party text editor that supports Markdown, you can download the program from [here](https://atom.io/ "Install Atom")
 
-How to install
-Where to download from
-
-Once Atom is installed please run the folwing from command prompt or terminal:
+Once Atom is installed run the following from a command prompt or terminal.  This will install some useful packages that will assist in the formatting of your documentation.
 ```
 apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
 ```
 
 ## Command Palette
-In that welcome screen, we are introduced to probably the most important command in Atom, the Command Palette. If you press Cmd+Shift+P while focused in an editor pane, the command palette will pop up.
+In the welcome screen we are introduced to probably the most important command in Atom, the Command Palette. If you press "Cmd+Shift+P" while focused in an editor pane, the command palette will pop up.
 
 ## Markdown Preview
-Shift+Control+M
+Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
 
 ## [GitHub repository](https://github.com/TransVault/documentation)
 You will need to clone our repo by TBD.
+
+## GitHub
+
+"Ctrl-Shift-9" can be used to toggle the GitHub pane within Atom.
