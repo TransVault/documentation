@@ -1,4 +1,4 @@
-# Configuring Active Directory environment
+### Configuring Active Directory environment
 
 The Active Directory tab is where you will find all the settings and configuration required with regards to the On-premises Active Directory.
 
@@ -6,7 +6,7 @@ The Active Directory tab is where you will find all the settings and configurati
 
 **Credentials -** The credentials are those of either the exchange admin or domain admin.
 
-## Scheduled jobs
+### Scheduled jobs
 
 At the bottom of the Environment tab you will see the scheduled job list. You can edit a task by clicking on the edit icon in the list of available hosts.
 
@@ -20,7 +20,7 @@ The jobs available are as follows:
 
 **GetUsersInDomains -** Gets all users in a Domain.
 
-# Configuring Exchange environment
+### Configuring Exchange environment
 
 Once the agent has been installed (typically this would be the Exchange On-premises server which would act as the PowerShell host where the exchange management shell is located), you will be presented with various tabs.
 
@@ -34,7 +34,7 @@ The Exchange tab is where you will find all the settings and configuration requi
 
 **Credentials -** The credentials are those of either the exchange admin or domain admin.
 
-## Scheduled jobs
+### Scheduled jobs
 
 At the bottom of the Environment tab you will see the scheduled job list. You can edit a task by clicking on the edit icon in the list of available hosts.
 
@@ -54,7 +54,7 @@ The jobs available are as follows:
 
 **GetOnPremPersonalArchiveStatistics -** This job will fetch all On-premises Personal Archive Statistics (for example number of items and how many folders etc).
 
-# Configuring TransVault environment
+### Configuring TransVault environment
 
 In this tab you can configure the TransVault scheduled jobs that relate to the TransVault Migration server. These jobs can be run at any time from the scheduled jobs window.
 
@@ -68,7 +68,7 @@ In this tab you can configure the TransVault scheduled jobs that relate to the T
 
 **Credentials -** The credentials are those of either the exchange admin or domain admin.
 
-## Scheduled jobs
+### Scheduled jobs
 
 At the bottom of the Environment tab you will see the scheduled job list. You can edit a task by clicking on the edit icon in the list of available hosts.
 
@@ -84,7 +84,34 @@ The jobs available are as follows:
 
 **Agent notes** : When installing the agent, it&#39;s important to note that you must have one agent per datacentre. The agent is forest specific as well i.e. if you have more than one Exchange server in different forests in different locations, then each one will need its own agent. Likewise, in a cross domain scenario, this would also require multiple agents.
 
-# Additional columns for data grid
+## Moving a mailbox to Office 365
+
+A typical workflow template to move an on-premises mailbox into Office 365 might contain the following steps.
+
+1) **Communication Step - *Mail User*.**  
+Advise the user in advance that their mailbox will be moved into Office 365 in X number of days.  This step requires a MSG template file and can contain personalised details like FirstName and LastName to ensure the email is tailored for the end user.
+
+2) **Communication Step - *Mail administrator*.**  
+Send an email to a specific administrative email address confirming that the user has been successfully notified.  This step also requires a MSG template file.
+
+3) **Wait Steps  - *Wait Time*.**  
+Set a timed delay for X amount of days/hours etc before the next step is processed.
+
+4) **Office 365 - *Preflight primary to cloud*.**  
+Run checks against the on-premise Exchange to ensure the account exists and the email address is valid.
+
+5) **Office 365 - *Move primary to cloud*.**  
+Initiate the move of the users mailbox into Office 365.
+
+6) **User and License Steps - *Assign a license*.**  
+Assign an Office 365 license to the recently created users mailbox so that it can be accessed.
+
+7) **Communication Step - *Mail User*.**  
+Email the user and advise them that their mailbox has now been moved into Office 365, and that they will need to restart Outlook.
+
+You can add in more wait steps or communication steps as are required for your specific project, but this process forms a simple framework for moving a users mailbox into Office 365.
+
+## Additional columns for data grid
 
 You can modify which columns are displayed in the Mapping screen.  To add in additional columns, go to Settings --> On-Boarding (This is only accessible with the OnBoard admin permission)
 

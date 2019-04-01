@@ -34,7 +34,7 @@ You will need to clone our repo by TBD.
 
 Any saved changes made to the documentation will appear in "Git" in the right hand pane as follows.
 
-![Unstaged Changes](img/Unstaged-changes.jpg "Unstaged Changes")
+![Unstaged Changes](img/unstaged-changes.jpg "Unstaged Changes")
 
 To stage your changes you can either select "Stage All" or right click a file and select "Stage"
 

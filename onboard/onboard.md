@@ -136,7 +136,7 @@ The mappings page will reflect the selections and mapping you have created. In t
 
 ### Batching
 
-Processing one user as we've done here is useful if you want to test the process of onboarding with your chosen workflow. Once the testing is done you will want to begin processing your user population in batches. That's covered in this [section](batching.md).
+Processing one user as we've done here is useful if you want to test the process of onboarding with your chosen workflow. Once the testing is done you will want to begin processing your user population in batches.
 
 ## Batching
 

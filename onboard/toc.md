@@ -17,7 +17,9 @@
 
 
 # [TBD-Additional Configuration](configuration.md)
-## [Active Directory](configuration.md#Configuring-Active-Directory-environment)
-## [Setting up the Exchange environment](configuration.md#configuring-exchange-environment)
-## [Setting up the Transvault environment](configuration.md#Configuring-TransVault-environment)
-## [Configure additional columns](configuration.md#Additional-columns-for-data-grid)
+## Setting up the environments
+### [Active Directory](configuration.md#configuring-active-directory-environment)
+### [Setting up the Exchange environment](configuration.md#configuring-exchange-environment)
+### [Setting up the Transvault environment](configuration.md#configuring-transvault-environment)
+## [Moving a Mailbox to Office 365](configuration.md#moving-a-mailbox-to-office-365)
+## [Configure additional columns](configuration.md#additional-columns-for-data-grid)
