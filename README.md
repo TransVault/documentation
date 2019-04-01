@@ -46,7 +46,7 @@ To commit your changes enter a simple "commit message" noting what changes have 
 
 ![Commit Changes](img/commit-changes.jpg "Commit")
 
-The final step is to ![Push](img/push.jpg "Push Bottom Right") your changes into the repository.
+The final step is to ![Push](img/push.jpg "Push Bottom Right") your changes into the repository. When doing this for the first time, you will be prompted to enter your GitHub userID and password.
 
 When any changes have been committed do remember to check the live [GitHub](https://github.com/TransVault/documentation "GitHub") page to confirm everything is ok.
 
