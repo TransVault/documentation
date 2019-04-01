@@ -34,6 +34,12 @@ You will need to clone our repo by TBD.
 
 Any saved changes made to the documentation will appear in Git as
 
-![Unstaged Changes](img/Unstaged-changes.jpg)
+![Unstaged Changes](img/Unstaged-changes.jpg "Unstaged Changes")
 
-https://github.com/TransVault/documentation
+To stage your changes you can either select "Stage All" or right click file and select "Stage"
+
+Once selected your staged files will here as below:
+
+![Staged Changes](img/staged-changes.jpg "Staged Changes")
+
+When any changes have been committed do remember to check the live [GitHub](https://github.com/TransVault/documentation "GitHub") page to confirm everything is ok.
