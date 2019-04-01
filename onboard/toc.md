@@ -17,6 +17,7 @@
 
 
 # [TBD-Additional Configuration](configuration.md)
-## [Setting up the Exchange environment](configuration.md#setting-up-exchange)
-## [Setting up the Transvault environment](configuration.md#setting-up-Transvault)
-## [Configure additional columns](configuration.md#configure-additional-columns)
+## [Active Directory](configuration.md#Configuring-Active-Directory-environment)
+## [Setting up the Exchange environment](configuration.md#configuring-exchange-environment)
+## [Setting up the Transvault environment](configuration.md#Configuring-TransVault-environment)
+## [Configure additional columns](configuration.md#Additional-columns-for-data-grid)
