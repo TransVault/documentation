@@ -19,4 +19,6 @@ Shift+Control+P
 ## GitHub repository
 You will need to install the ```git-clone``` package to do so [install git-clone](atom://settings-view/show-package?package=git-clone)
 
+```git-clone``` can be located [here](https://atom.io/packages/git-clone "Git Clone")
+
 ![](https://i.github-camo.com/5001a11cde476749c25a19fba6191cee96a2f6b4/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f627269616e6368756e673830382f6769742d636c6f6e652f6d61737465722f73637265656e73686f74732f64656d6f2e676966)
