@@ -28,18 +28,36 @@ Pressing "Shift+Control+M" whilst in an existing document will bring up the mark
 ## [GitHub repository](https://github.com/TransVault/documentation)
 You will need to clone our repo by TBD.
 
-## GitHub
+## GitHub in Atom
 
 "Ctrl-Shift-9" can be used to toggle the GitHub pane within Atom.
 
-Any saved changes made to the documentation will appear in Git as
+Any saved changes made to the documentation will appear in "Git" in the right hand pane as follows.
 
 ![Unstaged Changes](img/Unstaged-changes.jpg "Unstaged Changes")
 
-To stage your changes you can either select "Stage All" or right click file and select "Stage"
+To stage your changes you can either select "Stage All" or right click a file and select "Stage"
 
-Once selected your staged files will here as below:
+Once selected your staged files will appear as below:
 
 ![Staged Changes](img/staged-changes.jpg "Staged Changes")
 
+To commit your changes enter a simple "commit message" noting what changes have been made, then press `Commit to Master`
+
+![Commit Changes](img/commit-changes.jpg "Commit")
+
+The final step is to ![Push](img/push.jpg "Push Bottom Right") your changes into the repository.
+
 When any changes have been committed do remember to check the live [GitHub](https://github.com/TransVault/documentation "GitHub") page to confirm everything is ok.
+
+### Reviewing your Changes
+
+If you select one of the `Unstaged Changes` in the Git pane, it will bring up a new window like the following:
+
+![Changes Made](img/changes-made.jpg "Changes Made")
+
+Lines in Red are rows deleted, those in green are additions to the file.
+
+### Pulling changes from GitHub
+
+If changes have been made by other users to the live repository, the push button will be replaced with ![Pull](img/pull.jpg "Pull").  Pressing this will upload your local copy with the updated files.
