@@ -60,4 +60,4 @@ Lines in Red are rows deleted, those in green are additions to the file.
 
 ### Pulling changes from GitHub
 
-If changes have been made by other users to the live repository, the push button will be replaced with ![Pull](img/6-pull.jpg "Pull").  Pressing this will upload your local copy with the updated files.
+If changes have been made by other users to the live repository, the push button will be replaced with ![Pull](img/6-pull.jpg "Pull Bottom Right").  Pressing this will upload your local copy with the updated files.
