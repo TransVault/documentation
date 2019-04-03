@@ -20,18 +20,22 @@ apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
 ```
 
 ## Command Palette
-In the welcome screen we are introduced to probably the most important command in Atom, the Command Palette. If you press "Cmd+Shift+P" while focused in an editor pane, the command palette will pop up.
+In the welcome screen we are introduced to probably the most important command in Atom, the Command Palette. If you press "Ctrl+Shift+P"  while focused in an editor pane, the command palette will pop up.
 
-## Markdown Preview
-Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
+![Command Palette](images/atom/palette.jpg)
+
+More on its uses later.
 
 ## [GitHub repository](https://github.com/TransVault/documentation)
 You will need a GitHub account if you wish to contribute to our documentation library. If you do not have an account, you can sign up for a free one [here](https://github.com/join).
 
-To clone our repo by opening the `Command Palette` and typing `git-clone` and press enter.
+You can clone our repo by opening the `Command Palette` and typing `git-clone` and press enter.
 Enter `https://github.com/TransVault/documentation.git` into the `clone-from` field, and select a local path to save your temporary changes.
 
-You will be prompted to enter your GitHub credentials please enter them and CRACK ON! 
+You will be prompted to enter your GitHub credentials so please enter them and CRACK ON!
+
+## Markdown Preview
+Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
 
 ## GitHub in Atom
 
