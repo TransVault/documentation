@@ -26,7 +26,12 @@ In the welcome screen we are introduced to probably the most important command i
 Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
 
 ## [GitHub repository](https://github.com/TransVault/documentation)
-You will need to clone our repo by TBD.
+You will need a GitHub account if you wish to contribute to our documentation library. If you do not have an account, you can sign up for a free one [here](https://github.com/join).
+
+To clone our repo by opening the `Command Palette` and typing `git-clone` and press enter.
+Enter `https://github.com/TransVault/documentation.git` into the `clone-from` field, and select a local path to save your temporary changes.
+
+You will be prompted to enter your GitHub credentials please enter them and CRACK ON! 
 
 ## GitHub in Atom
 
