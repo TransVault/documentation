@@ -20,6 +20,8 @@ The final step in using Onboarding is to map a test (or pilot) user. The instruc
 
 The following steps describe how to deploy and authorize an agent.  All of these steps take place on the 'Agents' tab inside the Onboarding application.
 
+Before installing the agent you must ensure that [Windows Management Framework 5.1](https://go.microsoft.com/fwlink/?linkid=839516) is installed on the server where the agent is to be deployed.
+
 **Note**: If an agent is deployed, but not authorized it will not be used by Onboarding.
 
 ### Generate a Key
