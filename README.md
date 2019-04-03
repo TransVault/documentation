@@ -34,19 +34,19 @@ You will need to clone our repo by TBD.
 
 Any saved changes made to the documentation will appear in "Git" in the right hand pane as follows.
 
-![Unstaged Changes](img/1-unstaged-changes.jpg "Unstaged Changes")
+![Unstaged Changes](images/atom/unstaged-changes.jpg "Unstaged Changes")
 
 To stage your changes you can either select "Stage All" or right click a file and select "Stage"
 
 Once selected your staged files will appear as below:
 
-![Staged Changes](img/2-staged-changes.jpg "Staged Changes")
+![Staged Changes](images/atom/staged-changes.jpg "Staged Changes")
 
 To commit your changes enter a simple "commit message" noting what changes have been made, then press `Commit to Master`
 
-![Commit Changes](img/3-commit-changes.jpg "Commit")
+![Commit Changes](images/atom/commit-changes.jpg "Commit")
 
-The final step is to ![Push](img/4-push.jpg "Push Bottom Right") your changes into the repository. When doing this for the first time, you will be prompted to enter your GitHub userID and password.
+The final step is to ![Push](images/atom/push.jpg "Push Bottom Right") your changes into the repository. When doing this for the first time, you will be prompted to enter your GitHub userID and password.
 
 When any changes have been committed do remember to check the live [GitHub](https://github.com/TransVault/documentation "GitHub") page to confirm everything is ok.
 
@@ -54,10 +54,10 @@ When any changes have been committed do remember to check the live [GitHub](http
 
 If you select one of the `Unstaged Changes` in the Git pane, it will bring up a new window like the following:
 
-![Changes Made](img/5-changes-made.jpg "Changes Made")
+![Changes Made](images/atom/changes-made.jpg "Changes Made")
 
 Lines in Red are rows deleted, those in green are additions to the file.
 
 ### Pulling changes from GitHub
 
-If changes have been made by other users to the live repository, the push button will be replaced with ![Pull](img/6-pull.jpg "Pull Bottom Right").  Pressing this will upload your local copy with the updated files.
+If changes have been made by other users to the live repository, the push button will be replaced with ![Pull](images/atom/pull.jpg "Pull Bottom Right").  Pressing this will upload your local copy with the updated files.
