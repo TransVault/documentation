@@ -29,6 +29,10 @@ More on its uses later.
 ## [GitHub repository](https://github.com/TransVault/documentation)
 You will need a GitHub account if you wish to contribute to our documentation library. If you do not have an account, you can sign up for a free one [here](https://github.com/join).
 
+Once your account has been created you will need to advise Wayne of your loginID, so that you can be assigned the relevant permissions to the TransVault repository.
+
+When permissions have been granted you will receive an email advising you have been invited  to collaborate on the TransVault/documentation repository.
+
 You can clone our repo by opening the `Command Palette` and typing `git-clone` and press enter.
 Enter `https://github.com/TransVault/documentation.git` into the `clone-from` field, and select a local path to save your temporary changes.
 
