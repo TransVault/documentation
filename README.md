@@ -44,7 +44,25 @@ Pressing "Shift+Control+M" whilst in an existing document will bring up the mark
 
 ## Check in your changes in GitHub
 
+Open a command prompt and add your GitHub details:
+
+```
+git config --global user.email "your.github@email.com"
+git config --global user.name "github_username"
+```
+
 "Ctrl-Shift-9" can be used to toggle the GitHub pane within Atom.
+
+@Mike please review and update = try pushing first
+
+Select the GitHub icon ![GitHub](images/atom/git.png "GitHub")
+
+Select the Login button ![GitHub](images/atom/login.png "GitHub")
+
+You will be redirected to [https://github.atom.io/login](https://github.atom.io/login) copy the token
+
+Enter the token and sleect Login ![Token](images/atom/token.png "Token")
+
 
 Any saved changes made to the documentation will appear in "Git" in the right hand pane as follows.
 
