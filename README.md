@@ -10,7 +10,7 @@ To install all prerequisites, open a command prompt as administrator and enter t
 ```
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 choco feature enable -n allowGlobalConfirmation
-choco install docfx atom
+choco install docfx atom git
 ```
 
 Close the command prompt and open a new one  as administrator again, this is needed to reload some environment variables. Now install some useful packages that will assist in the formatting of your documentation.
@@ -34,7 +34,7 @@ Once your account has been created you will need to advise Wayne of your loginID
 
 When permissions have been granted you will receive an email advising you have been invited  to collaborate on the TransVault/documentation repository.
 
-You can clone our repo by opening the `Command Palette` and typing `git-clone` and press enter.
+You can clone our repo by opening the `Command Palette` "Ctrl+Shift+P" and type `git-clone` and press enter.
 Enter `https://github.com/TransVault/documentation.git` into the `clone-from` field, and select a local path to save your temporary changes.
 
 You will be prompted to enter your GitHub credentials so please enter them and CRACK ON!
@@ -42,7 +42,7 @@ You will be prompted to enter your GitHub credentials so please enter them and C
 ## Markdown Preview
 Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
 
-## GitHub in Atom
+## Check in your changes in GitHub
 
 "Ctrl-Shift-9" can be used to toggle the GitHub pane within Atom.
 
