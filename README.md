@@ -21,7 +21,7 @@ apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
 
 ## [DocFX](https://dotnet.github.io/docfx/)
 
-To build the project, call the DocFX binary and point it to the repository ```docfx.json``` file and use the parameter ```--serve``` to spawn a web-service that listens on [http://localhost:8080](http://localhost:8080) E.G.
+To build the project, call the DocFX binary and point it to the repository ```docfx.json``` file and use the parameter ```--serve``` to spawn a web-service that listens on [http://localhost:8080](http://localhost:8080)
 
 ```
 c:\docfx\docfx.exe c:\docs\docfx.json --serve
