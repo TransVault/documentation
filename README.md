@@ -1,30 +1,31 @@
 # Documentation
 We use DocFX for our help and documentation side of things.
 
+## Prerequisite
+
+To get your documentation platform configured we use [chocolatey](https://chocolatey.org/) The package manager for Windows.
+
+To install all prerequisites, open a command prompt as administrator and enter the following:
+
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+choco feature enable -n allowGlobalConfirmation
+choco install docfx atom
+```
+
+Close the command prompt and open a new one  as administrator again, this is needed to reload some environment variables. Now install some useful packages that will assist in the formatting of your documentation.
+
+```
+apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
+```
+
 ## [DocFX](https://dotnet.github.io/docfx/)
-You can download the zip package of the precompiled binaries if you would like to play from [here](https://github.com/dotnet/docfx/releases "DocFX Installer").
 
 To build the project, call the DocFX binary and point it to the repository ```docfx.json``` file and use the parameter ```--serve``` to spawn a web-service that listens on [http://localhost:8080](http://localhost:8080) E.G.
 
 ```
 c:\docfx\docfx.exe c:\docs\docfx.json --serve
 ```
-
-## Atom
-
-Atom is a third-party text editor that supports Markdown, you can download the program from [here](https://atom.io/ "Install Atom").
-
-Once Atom is installed run the following from a command prompt or terminal.  This will install some useful packages that will assist in the formatting of your documentation.
-```
-apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
-```
-
-## Command Palette
-In the welcome screen we are introduced to probably the most important command in Atom, the Command Palette. If you press "Ctrl+Shift+P"  while focused in an editor pane, the command palette will pop up.
-
-![Command Palette](images/atom/palette.jpg)
-
-More on its uses later.
 
 ## [GitHub repository](https://github.com/TransVault/documentation)
 You will need a GitHub account if you wish to contribute to our documentation library. If you do not have an account, you can sign up for a free one [here](https://github.com/join).
