@@ -17,3 +17,5 @@
 ### [TransVault](configuration.md#configuring-transvault-environment)
 
 ## [Additional columns](configuration.md#additional-columns-for-data-grid)
+
+# [How to](howto.md#Utilising-email-templates)
