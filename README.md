@@ -1,30 +1,31 @@
 # Documentation
 We use DocFX for our help and documentation side of things.
 
-## [DocFX](https://dotnet.github.io/docfx/)
-You can download the zip package of the precompiled binaries if you would like to play from [here](https://github.com/dotnet/docfx/releases "DocFX Installer").
+## Prerequisite
 
-To build the project, call the DocFX binary and point it to the repository ```docfx.json``` file and use the parameter ```--serve``` to spawn a web-service that listens on [http://localhost:8080](http://localhost:8080) E.G.
+To get your documentation platform configured we use [chocolatey](https://chocolatey.org/) The package manager for Windows.
+
+To install all prerequisites, open a command prompt as administrator and enter the following:
 
 ```
-c:\docfx\docfx.exe c:\docs\docfx.json --serve
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+choco feature enable -n allowGlobalConfirmation
+choco install docfx atom git
 ```
 
-## Atom
+Close the command prompt and open a new one  as administrator again, this is needed to reload some environment variables. Now install some useful packages that will assist in the formatting of your documentation.
 
-Atom is a third-party text editor that supports Markdown, you can download the program from [here](https://atom.io/ "Install Atom").
-
-Once Atom is installed run the following from a command prompt or terminal.  This will install some useful packages that will assist in the formatting of your documentation.
 ```
 apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
 ```
 
-## Command Palette
-In the welcome screen we are introduced to probably the most important command in Atom, the Command Palette. If you press "Ctrl+Shift+P"  while focused in an editor pane, the command palette will pop up.
+## [DocFX](https://dotnet.github.io/docfx/)
 
-![Command Palette](images/atom/palette.jpg)
+To build the project, call the DocFX binary and point it to the repository ```docfx.json``` file and use the parameter ```--serve``` to spawn a web-service that listens on [http://localhost:8080](http://localhost:8080)
 
-More on its uses later.
+```
+c:\docfx\docfx.exe c:\docs\docfx.json --serve
+```
 
 ## [GitHub repository](https://github.com/TransVault/documentation)
 You will need a GitHub account if you wish to contribute to our documentation library. If you do not have an account, you can sign up for a free one [here](https://github.com/join).
@@ -33,7 +34,7 @@ Once your account has been created you will need to advise Wayne of your loginID
 
 When permissions have been granted you will receive an email advising you have been invited  to collaborate on the TransVault/documentation repository.
 
-You can clone our repo by opening the `Command Palette` and typing `git-clone` and press enter.
+You can clone our repo by opening the `Command Palette` "Ctrl+Shift+P" and type `git-clone` and press enter.
 Enter `https://github.com/TransVault/documentation.git` into the `clone-from` field, and select a local path to save your temporary changes.
 
 You will be prompted to enter your GitHub credentials so please enter them and CRACK ON!
@@ -41,9 +42,27 @@ You will be prompted to enter your GitHub credentials so please enter them and C
 ## Markdown Preview
 Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
 
-## GitHub in Atom
+## Check in your changes in GitHub
+
+Open a command prompt and add your GitHub details:
+
+```
+git config --global user.email "your.github@email.com"
+git config --global user.name "github_username"
+```
 
 "Ctrl-Shift-9" can be used to toggle the GitHub pane within Atom.
+
+@Mike please review and update = try pushing first
+
+Select the GitHub icon ![GitHub](images/atom/git.png "GitHub")
+
+Select the Login button ![GitHub](images/atom/login.png "GitHub")
+
+You will be redirected to [https://github.atom.io/login](https://github.atom.io/login) copy the token
+
+Enter the token and sleect Login ![Token](images/atom/token.png "Token")
+
 
 Any saved changes made to the documentation will appear in "Git" in the right hand pane as follows.
 
