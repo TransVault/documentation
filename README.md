@@ -3,7 +3,7 @@ We use DocFX for our help and documentation side of things.
 
 ## Prerequisite
 
-To get your documentation platform configured we use [chocolatey](https://chocolatey.org/) The package manager for Windows.
+To get your documentation platform configured we use [chocolatey](https://chocolatey.org/), the package manager for Windows.
 
 To install all prerequisites, open a command prompt as administrator and enter the following:
 
@@ -13,7 +13,7 @@ choco feature enable -n allowGlobalConfirmation
 choco install docfx atom git
 ```
 
-Close the command prompt and open a new one  as administrator again, this is needed to reload some environment variables. Now install some useful packages that will assist in the formatting of your documentation.
+Close the command prompt and open a new one as administrator again, this is needed to reload some environment variables. We will now install some additional packages that will assist in the formatting of your documentation.
 
 ```
 apm install tool-bar markdown-writer tool-bar-markdown-writer git-clone
@@ -42,9 +42,9 @@ You will be prompted to enter your GitHub credentials so please enter them and C
 ## Markdown Preview
 Pressing "Shift+Control+M" whilst in an existing document will bring up the markdown preview pane, so you can see how your document will look once it's published.
 
-## Check in your changes in GitHub
+## Connecting Atom to GitHub
 
-Open a command prompt and add your GitHub details:
+Open a command prompt and add your GitHub login details:
 
 ```
 git config --global user.email "your.github@email.com"
@@ -57,12 +57,12 @@ git config --global user.name "github_username"
 
 Select the GitHub icon ![GitHub](images/atom/git.png "GitHub")
 
-Select the Login button ![GitHub](images/atom/login.png "GitHub")
+Select the Login button
+![GitHub](images/atom/login.png "GitHub")
 
 You will be redirected to [https://github.atom.io/login](https://github.atom.io/login) copy the token
 
-Enter the token and sleect Login ![Token](images/atom/token.png "Token")
-
+Enter the token and select Login ![Token](images/atom/token.png "Token")
 
 Any saved changes made to the documentation will appear in "Git" in the right hand pane as follows.
 
