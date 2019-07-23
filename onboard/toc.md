@@ -21,5 +21,4 @@
 # [How to/FAQ](howto.md)
 
 ## [Email Templates](howto.md#email-templates)
-
-## [FAQ](faq.md#faq)
+## [FAQ](faq.md)
