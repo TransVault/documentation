@@ -18,4 +18,6 @@
 
 ## [Additional columns](configuration.md#additional-columns-for-data-grid)
 
-# [How to](howto.md#Utilising-email-templates)
+# [How to](howto.md)
+
+## [Email Templates](howto.md#email-templates)
