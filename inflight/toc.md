@@ -20,7 +20,7 @@
 ## [Getting started](auditing/gettingstarted.md)
 ## [Main screen](auditing/main-screen.md)
 ## [Performing a query](auditing/performing-a-query.md)
-## [Usign the data grid](auditing/switching-to-data-grid.md)
+## [Using the data grid](auditing/switching-to-data-grid.md)
 
 ## Examples
 ### [Show creation/deletion of Teams](auditing/example-teams.md)
