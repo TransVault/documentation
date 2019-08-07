@@ -127,7 +127,7 @@ This EULA agreement is effective from the date you first use the Software and sh
 It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Software. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.
 
 ## INTELLECTUAL PROPERTY NOTICES
-This Software is copyright (C) 2018 TransVault Software. All rights reserved.  TransVault is a trademark of TransVault Software registered in the UK and other countries.
+This Software is copyright (C) 2019 TransVault Software. All rights reserved.  TransVault is a trademark of TransVault Software registered in the UK and other countries.
 
 ## GOVERNING LAW JURISDICTION
 This Agreement shall be governed by and construed in accordance with the laws of England and Wales and the courts of England shall have jurisdiction over any dispute arising hereunder.
