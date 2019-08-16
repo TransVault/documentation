@@ -8,6 +8,19 @@ Below you will find a list of the most commonly asked questions regarding OnBoar
 **Q** - What pre-requisites are there if I want to use OnBoard?  
 **A** - A mandatory requirement is that the OnBoard agent needs access to an on-premises AD environment.  You must also have a tenant within the TransVault platform.
 
+Depending on your environment you might also need to whitelist the following sites and/or allow access through your firewall.  
+
+*.transvault.com  
+*.cloudficient.com  
+
+Geotag APIs  
+http://api.ipstack.com
+https://wtfismyip.com
+http://checkip.amazonaws.com
+https://icanhazip.com
+https://api.ipify.org
+https://ipinfo.io
+
 **Q** - If I have plugin updates pending in addition to an agent update, do I need to update the agent version first?  
 **A** - Plugin updates are backwards compatible so whilst there is no specific requirement to update the agent as well (if applicable), we would recommend time is scheduled outside of workflows being run so that all can be updated to the latest versions available.
 
