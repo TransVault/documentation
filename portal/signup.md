@@ -20,7 +20,7 @@ like the one shown below, you are not yet setup and should create a subscription
 ## Creating a new subscription
 
 If you need to create a subscription you can do so on this page. You will be shown our terms and conditions and after agreeing to those
-your cloudficient application tenant will be created. This usually takes a few seconds, and you'll be returned back to the subscription
+your TransVault cloud platform tenant will be created. This usually takes a few seconds, and you'll be returned back to the subscription
 page afterwards.
 
 ## Launching the application
