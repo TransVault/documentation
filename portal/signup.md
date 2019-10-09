@@ -15,7 +15,7 @@ If you're an existing customer, and you reach our portal page, you can also sign
 This page shows you any active application subscriptions, and you can create a new subscription if you need to.  If you don't see a subscription
 like the one shown below, you are not yet setup and should create a subscription as described in the next section.
 
-![subscription](images/cf-subscription.png "Subscription for your tenant")
+![subscription](images/transvault-subscription.png "Subscription for your tenant")
 
 ## Creating a new subscription
 
@@ -26,4 +26,4 @@ page afterwards.
 ## Launching the application
 Once the subscription has been created you can click on the link near the top of the page, to launch the application.
 
-![subscription](images/cf-subscription.png "Subscription for your tenant")
+![subscription](images/transvault-subscription.png "Subscription for your tenant")
