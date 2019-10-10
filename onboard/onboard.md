@@ -2,11 +2,11 @@
 
 ## Getting started
 
-There are three stages to go through to get started with ACS Onboarding, and they're described in the sections below:
+There are three stages to go through to get started with TransVault Onboard, and they're described in the sections below:
 
 ### Agents and configuration
 
-At least one agent has to be deployed to a on-premise server in order to use the onboarding features. Don't worry though, it's really easy to setup and configure. The instructions are covered in this [section](onboard.md#deploying-an-agent).
+At least one agent has to be deployed to an on-premise server in order to use the OnBoard features. Don't worry though, it's really easy to setup and configure. The instructions are covered in this [section](onboard.md#deploying-an-agent).
 
 ### Creating a workflow
 
@@ -14,15 +14,15 @@ After the agent is properly configured the next step is to create a workflow. Th
 
 ### Mapping the first user
 
-The final step in using Onboarding is to map a test (or pilot) user. The instructions are covered in this [section](onboard.md#mapping-a-pilot-user).
+The final step in using OnBoard is to map a test (or pilot) user. The instructions are covered in this [section](onboard.md#mapping-a-pilot-user).
 
 ## Deploying an agent
 
-The following steps describe how to deploy and authorize an agent.  All of these steps take place on the 'Agents' tab inside the Onboarding application.
+The following steps describe how to deploy and authorize an agent.  All of these steps take place on the 'Agents' tab inside the OnBoard application.
 
 Before installing the agent you must ensure that [Windows Management Framework 5.1](https://go.microsoft.com/fwlink/?linkid=839516) is installed on the server where the agent is to be deployed.
 
-**Note**: If an agent is deployed, but not authorized it will not be used by Onboarding.
+**Note**: If an agent is deployed but not authorized, it will not be used by OnBoard.
 
 ### Generate a Key
 
@@ -40,23 +40,23 @@ The latest agent can be obtained and should be downloaded to the server where it
 
 ### Install the agent
 
-During the installation you can specify the location where the agent is installed on the local machine. You must also provide the key which was generated inside the Onboarding application.
+During the installation you can specify the location where the agent is installed on the local machine. You must also provide the key which was generated inside the Onboard application.
 
 **Note**: If the key is more than 2 hours old, it will not work and a new one will need to be generated.
 
 ### Configure credentials
 
-Depending on the role of the agent additional credentials need to be input. This activity is performed with the credentials manager. The name of these credentials (but not the credentials themselves) will be visible in the Onboarding interface allowing you to process different workflow steps under different credentials.
+Depending on the role of the agent additional credentials need to be input, this can be done via the Credential Editor exe which can be found in the folder where the OnBoard agent was installed. The name of these credentials (but not the credentials themselves) will be visible in the Onboard interface allowing you to process different workflow steps under different credentials.
 
-<screenshot needed>
+![Credentials](images/credential_editor.png "Credential Editor")
 
 ### Authorize the agent
 
-Once the agent has successfully started it will check-in with the Onboarding application. On the 'Agents' tab in the user interface you will be able to see the freshly installed agent. To allow the agent to be used for Onboarding select it in the table, and click the icon in the 'Authorized' column. A few seconds later the agent will be authorized for usage by Onboarding.
+Once the agent has successfully started it will check-in with the Onboard application. On the 'Agents' tab in the user interface you will be able to see the freshly installed agent. To allow the agent to be used for Onboard select it in the table, and click the icon in the 'Authorized' column. A few seconds later the agent will be authorized for usage by Onboarding.
 
 ![Seed](images/agent-authorize.png)
 
-### Add plugins
+### Add Plugins
 
 Depending on the role of the agent additional agent-side plugins can be added to the agent. These will be automatically downloaded and the functionality will be added to the agent which has been selected.
 
@@ -64,9 +64,9 @@ Depending on the role of the agent additional agent-side plugins can be added to
 
 ## Creating a Workflow
 
-A workflow is an essential element of onboarding. It consists of a number of workflow steps which will be executed in order to process a user or a group of users.
+A workflow is an essential element of TransVault OnBoard. It consists of a number of workflow steps which will be executed in order to process a user or group of users.
 
-The workflow template system is flexible and can be used to create simple and complex workflows to suit the particular onboarding requirements. In order to get started, we'll go through an example of creating a simple workflow to send out emails to a user and an administrator.
+The workflow template system is flexible and can be used to create both simple and complex workflows to suit the particular OnBoard requirements. In order to get started, we'll go through an example of creating a simple workflow to send out emails to a user and an administrator.
 
 All of the workflow template activities take place on the Workflows tab and are described below.
 
@@ -77,13 +77,13 @@ The main workflow template editor window looks like this:
 
 ![Seed](images/workflow-canvas.png)
 
-In here you can retrieve previously saved templates, as well as configure new ones.  You begin by dragging and dropping workflow steps on to the canvas. You can arrange them however you like, but we prefer to see them put into a logical order to make following the workflow eaier.
+In here you can retrieve previously saved templates, as well as configure new ones.  You begin by dragging and dropping workflow steps on to the canvas. You can arrange them however you like, but we would recommend placing them into a logical order to make following the workflow easier.
 
 ## Communication steps
 
 In this simple example we will expand the 'Communication steps' group of workflow steps and drag and drop two communication steps. These are shown below:
 
-![Seed](images/workflow-comms.png)
+![Seed](images/workflow_email.png "Email Steps")
 
 ### Introducing a delay
 
@@ -93,15 +93,15 @@ For our example we want to introduce a few minutes delay between the email steps
 
 ### Joining the steps
 
-The steps in a workflow need to be joined together to show the logical flow of the process. That's easy to do. Click and drag from the text of one workflow step, to the next in the sequence. Repeat that process for each step, and you will see this:
+The steps in a workflow need to be joined together to create the logical flow of the process. Simply click and drag from the text of one workflow step, to the next in the sequence. Repeat that process for each step, and you will see the following:
 
 ![Seed](images/workflow-joining.png)
 
 ### Configuring the steps
 
-Some of the steps have configuration options available to them. That's shown by the small cog-icon on the workflow step when it's on the canvas. If you click that it will show a pop-up and allow you to configure the steps.
+Some of the steps have configuration options available to them. That's identified by the small cog-icon on the workflow step when it's on the canvas. If you click that it will show a pop-up and allow you to configure the required elements for that specific workflow step.
 
-For our example on the user communication step, we can configure a template email to send to the user. Similarly in the administration communication step we can configure a template to send, and we can configure who the email will go to. Lets choose your own email address for that.  Lastly, our wait step allows us to configure how long we want to wait.  Lets choose 5 minutes for that step.
+For our example on the user communication step, we can configure a template email to send to the user. Similarly in the administration communication step we can configure a template to send, and we can configure who the email will go to. Lastly, our wait step allows us to configure how long we want to wait e.g. 5 minutes.
 
 ![Seed](images/workflow-addingwait-2.png)
 
@@ -110,7 +110,7 @@ For our example on the user communication step, we can configure a template emai
 
 The final step is to save the workflow template. We can give the template a friendly name which will help us when it comes to mapping users.  
 
-**Note**: If there is a problem with the workflow a pop-up will appear giving your advice on how to fix it.
+**Note**: If there is a problem with saving the workflow a pop-up will appear giving you advice on how to fix it.
 
 ## Moving a mailbox to Office 365
 
@@ -137,27 +137,27 @@ Assign an Office 365 license to the recently created users mailbox so that it ca
 7) **Communication Step - *Mail User*.**  
 Email the user and advise them that their mailbox has now been moved into Office 365, and that they will need to restart Outlook.
 
-You can add in more wait steps or communication steps as are required for your specific project, but this process forms a simple framework for moving a users mailbox into Office 365.
+You can add in more wait steps or communication steps as are required for your specific project, but this process forms a simple framework for moving a user's mailbox into Office 365.
 
 ## Mapping a pilot user
 
-The process of assigning a workflow to a user is called mapping. This step can be done on individual users, or hundreds of users! Lets see how to perform a mapping of one test user in the following section.
+The process of assigning a workflow to a user is called mapping. This step can be done on individual users, or hundreds of users.
 
 This process takes place on the Mappings tab in the user interface.
 
 ### Finding a user
 
-The mappings page shows a list of your on-premises users. You can use the search box to quickly locate the user you wish to process.  Once you've located the user. Select the checkbox next to that user, and click on the 'Map' button above the data grid.
+The mappings page shows a list of your on-premises users. You can use the search box to quickly locate the user you wish to process.  Once you've located the user, select the checkbox next to that user, and click on the 'Map' button above the data grid.
 
 **Note**: You cannot map an already mapped user.
 
 ### Mapping the user
 
-The process of mapping a user is simple. You can give this chosen batch a name - that's useful for tracking purposes. You pick a workflow template, and a priority and you can even add a comment for the batch which will help later if someone has questions around the users in the batch.
+The process for mapping a user is simple. You can give this chosen batch a name - that's useful for tracking purposes. You pick a workflow template, and a priority and you can even add a comment for the batch which will help later if someone has questions around the users in the batch.
 
 ### What happens now?
 
-The mappings page will reflect the selections and mapping you have created. In the background our onboarding application will perform all the necessary steps in your chosen workflow, and the user interface on the mapping and batches page will be updated to show the current status.
+The mappings page will reflect the selections and mapping you have created. In the background TransVault OnBoard will perform all the necessary steps in your chosen workflow, and the user interface on the mapping and batches page will be updated to show the current status.
 
 ### Batching
 
@@ -204,7 +204,7 @@ If you need to remove a user from a group you can follow the same steps as above
 
 ## Monitoring progress
 
-There are three places that the progress of a mapping and of the overall onboarding project can be seen. These are described below.
+There are three places that the progress of a mapping and of the overall OnBoard project can be seen, these are described below.
 
 ### Overview
 
@@ -214,7 +214,7 @@ From here you can easily check the progress of your existing mappings, organisat
 
 ### Batches
 
-This tab gives summary information relating to batches that have been created in the onboarding project, their overall status as well as further details about individual users within a batch.
+This tab gives summary information relating to batches that have been created in the OnBoard project, their overall status as well as further details about individual users within a batch.
 
 ### Mappings
 
