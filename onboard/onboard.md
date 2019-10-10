@@ -171,15 +171,36 @@ All of this takes place on the Batches tab in the application, and is described 
 
 ### List of batches
 
-The top of the batches tab shows you batches that have already been created. Here you can perform operations on those batches such as enabling or disabling them from migration. You can also see the priority of the batch, how many users are in the batch,  whether the batch has already finished onboarding and much more!
+The top of the batches tab shows you batches that have already been created. Here you can perform operations on those batches such as enabling or disabling them from migration. You can also see the priority of the batch, how many users are in the batch,  whether the batch has already finished onboarding and much more.
 
 ### Selecting a batch
 
 If a batch is selected in the top data table, then the bottom of the screen shows more details about users which are in that batch including the workflow that they are assigned and the status.
 
-### Groups lead to batches
+## Groups
 
-We've added some predefined templates to help with creating batches. These are based on Active Directory properties. Groups can also be created manually. We've made it super flexible to even pick some people from a particular group and create a batch of just those users!
+You can create a new group by selecting the "Add a new group" button.
+
+![New group](images/add_a_new_group.png "Add a new group")
+
+Once selected you have a few options for creating your group.
+
+![Creation](images/group_creation.png "Group creation")
+
+- Method:
+ - **Automatic** - Create groups based upon specific Active Directory properties e.g. Department
+ - **Manual** - Create a manual group based upon an LDAP query (dynamic) or a static list of users (Comma separated UPNs or a CSV import file containing  a list of UPNs)
+
+### Removing Groups
+
+If you need to remove any manually created groups this can be done via the **Settings** option on the left hand pane.  Once selected you need to select the **"Groups"** tab.  
+**Note** - Any group that has a description of "automatically created" was created by OnBoard as part of the batch creation process, so must not be deleted.
+
+### Editing Groups
+
+From within the same screen you can add users to an existing group by selecting the group in question, then selecting the ![Add](images/add_user.png "Add") button, and providing the UPN of the user to be added.
+
+If you need to remove a user from a group you can follow the same steps as above, select the user in question and press the ![Add](images/remove_user.png "Remove") button.
 
 ## Monitoring progress
 
@@ -189,14 +210,14 @@ There are three places that the progress of a mapping and of the overall onboard
 
 This tab gives an overall view of the progress of the migration.
 
-**More needed**
+From here you can easily check the progress of your existing mappings, organisation progress as a whole as well as statistics around batches run over a period of time.
 
 ### Batches
 
-This tab gives summary information relating to batches that have been processed in the onboarding project, as well as some details about individual users within a batch.
+This tab gives summary information relating to batches that have been created in the onboarding project, their overall status as well as further details about individual users within a batch.
 
 ### Mappings
 
-The mappings tab gives details about individual users who have been processed. If a user is selcted you can quickly see the individual steps that have been performed!
+The mappings tab gives details about individual users that have been processed or are being processed. If a user is selected you can quickly see the individual steps that have been performed i.e. which ones have been completed, current step in progress or whether any steps have failed.  
 
-![Seed](images/workflow-steps.png)
+![Seed](images/workflow-steps.png "Workflow Steps")

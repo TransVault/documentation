@@ -6,6 +6,7 @@
 ## [Mapping a pilot user](onboard.md#mapping-a-pilot-user)
 ## [Moving a mailbox to Office 365](onboard.md#moving-a-mailbox-to-office-365)
 ## [Batching](onboard.md#batching-1)
+## [Groups](onboard.md#groups)
 ## [Monitoring progress](onboard.md#monitoring-progress)
 
 # [Additional configuration](configuration.md)
