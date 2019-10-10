@@ -92,9 +92,9 @@ The jobs available are as follows:
 
 **MigrationReport -** Fetches the Migration Report from the configured TransVault environment.
 
-## Additional columns for data grid
+## Additional columns for data grid on the Mappings screen
 
-You can modify which columns are displayed in the Mapping screen.  To add in additional columns, go to Settings --> On-Boarding (This is only accessible with the OnBoard admin permission)
+You can modify which columns are displayed in the Mappings screen.  To add in additional columns, go to Settings --> On-Boarding (This is only accessible with the OnBoard admin permission)
 
 Select which columns you would like to add from the available list on the right hand panel, Extended Properties i.e. add in fields from AD, Exchange, the TransVault mailbox table etc
 
