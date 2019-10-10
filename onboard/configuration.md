@@ -1,12 +1,16 @@
 ## Setting up the environments
 
+Once the agent has been installed (typically this would be the Exchange On-premises server which would act as the PowerShell host where the exchange management shell is located), you will be presented with various tabs.
+
+**Agent notes** : When installing the agent, it's important to note that you must have one agent per datacentre. The agent is forest specific as well i.e. if you have more than one Exchange server in different forests in different locations, then each one will need its own agent. Likewise, in a cross domain scenario, this would also require multiple agents.
+
 ### Configuring Active Directory environment
 
 The Active Directory tab is where you will find all the settings and configuration required with regards to the On-premises Active Directory.
 
 **Agent -** This is the server where the agent is installed.
 
-**Credentials -** The credentials are those of either the exchange admin or domain admin.
+**Credentials -** The credentials are those of either the Exchange admin or domain admin.
 
 ### Scheduled jobs
 
@@ -23,8 +27,6 @@ The jobs available are as follows:
 **GetUsersInDomains -** Gets all users in a Domain.
 
 ### Configuring Exchange environment
-
-Once the agent has been installed (typically this would be the Exchange On-premises server which would act as the PowerShell host where the exchange management shell is located), you will be presented with various tabs.
 
 The Exchange tab is where you will find all the settings and configuration required with regards to the Exchange server.
 
@@ -58,33 +60,37 @@ The jobs available are as follows:
 
 ### Configuring TransVault environment
 
-In this tab you can configure the TransVault scheduled jobs that relate to the TransVault Migration server. These jobs can be run at any time from the scheduled jobs window.
+In this tab you can configure the required settings for any TransVault Migration server along with the scheduled jobs that relate to it. These jobs can be run at any time from the scheduled jobs window.
 
 **Environment name -** This is a memorable label / name that you can apply that helps you to distinguish the environment being referenced.
 
 **SQL Server -** This should be set to the SQL Server that hosts the TransVault database.
 
-**Database name -** The TransVault database default (?TBD?).
+**Database name -** The TransVault database name. e.g. TransVault
 
-**Agent -** This is the server where the agent is installed.
+**Agent -** This is the server where the OnBoard Agent is installed.
 
-**Credentials -** The credentials are those of either the exchange admin or domain admin.
+**Credentials -** The credentials are those of either the Exchange admin or domain admin.
 
 ### Scheduled jobs
 
-At the bottom of the Environment tab you will see the scheduled job list. You can edit a task by clicking on the edit icon in the list of available hosts.
+Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
+
+At the bottom of this tab you will see the scheduled job list.
 
 The jobs available are as follows:
 
 **GetTVConnections -** This job fetches the configured connections in a TransVault Environment.
 
-**GetTVMailboxes -** Fetches the mailboxes/archives seen in a TransVault Environment.
+**GetTVErrorReport -** Fetches the error report from the configured TransVault environment.
 
-**GetTVPerformance -** Fetches the performance statistics for a Migration Queue.
+**GetTVMailboxes -** Fetches the mailboxes/archives seen in a TransVault Environment.
 
 **GetTVQueues -** Fetches the configured queues in a TransVault Environment.
 
-**Agent notes** : When installing the agent, it&#39;s important to note that you must have one agent per datacentre. The agent is forest specific as well i.e. if you have more than one Exchange server in different forests in different locations, then each one will need its own agent. Likewise, in a cross domain scenario, this would also require multiple agents.
+**GetTVQueueStatus -** Fetches the current status of the configured queues in a TransVault Environment.
+
+**MigrationReport -** Fetches the Migration Report from the configured TransVault environment.
 
 ## Additional columns for data grid
 
