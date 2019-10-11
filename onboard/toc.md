@@ -18,7 +18,7 @@
 ### [TransVault](configuration.md#configuring-transvault-environment)
 ### [EnterpriseVault](configuration.md#configuring-enterprise-vault-environment)
 
-## [Additional columns](configuration.md#additional-columns-for-data-grid)
+## [Additional columns](configuration.md#Additional-columns-for-data-grid-on-the-mappings-screen)
 
 # [How to/FAQ](howto.md)
 

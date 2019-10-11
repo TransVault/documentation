@@ -1,10 +1,10 @@
 # Logging in
 
-Logging is simple, just go to our portal page and click on 'Sign in' at the top right or 'sign up' in the center of the page.
+Logging in is simple, just go to our portal page and click on 'Sign in' at the top right or 'sign up' in the center of the page.
 
 You will be shown a list of your active subscriptions, like in this screenshot:
 
-![subscription](./images/cf-subscription.png "Subscription for your tenant")
+![subscription](./images/transvault-subscription.png "Subscription for your tenant")
 
 To get into the application simply click on one the icon.
 
