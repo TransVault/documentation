@@ -1,4 +1,4 @@
-## Setting up the environments
+## Setting up the Environments
 
 Once the agent has been installed (typically this would be the Exchange On-premises server which would act as the PowerShell host where the exchange management shell is located), you will be presented with various tabs.
 
@@ -14,9 +14,9 @@ The Active Directory tab is where you will find all the settings and configurati
 
 ### Scheduled jobs
 
-At the bottom of the Environment tab you will see the scheduled job list. You can edit a task by clicking on the edit icon in the list of available hosts.
+Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-The jobs available are as follows:
+At the bottom of this tab you will see the scheduled job list, which are as follows:
 
 **GetAdGroupsAndMembers -** Gets all AD groups and members in a Domain.
 
@@ -36,13 +36,13 @@ The Exchange tab is where you will find all the settings and configuration requi
 
 **Agent -** This is the server where the agent is installed.
 
-**Credentials -** The credentials are those of either the exchange admin or domain admin.
+**Credentials -** The credentials are those of either the Exchange admin or domain admin.
 
 ### Scheduled jobs
 
-At the bottom of the Environment tab you will see the scheduled job list. You can edit a task by clicking on the edit icon in the list of available hosts.
+Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-The jobs available are as follows:
+At the bottom of this tab you will see the scheduled job list, which are as follows:
 
 **TestMRSHealth -** This job tests / checks the MRS health of an instance of the Microsoft Exchange Mailbox Replication service.
 
@@ -76,9 +76,7 @@ In this tab you can configure the required settings for any TransVault Migration
 
 Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-At the bottom of this tab you will see the scheduled job list.
-
-The jobs available are as follows:
+At the bottom of this tab you will see the scheduled job list, which are as follows:
 
 **GetTVConnections -** This job fetches the configured connections in a TransVault Environment.
 
@@ -92,13 +90,47 @@ The jobs available are as follows:
 
 **MigrationReport -** Fetches the Migration Report from the configured TransVault environment.
 
+### Configuring Enterprise Vault environment
+
+The Enterprise Vault tab is where you will find all the settings and configuration required with regards to the source Enterprise Vault servers.
+
+**Environment name -** This is a memorable label / name that you can apply that helps you to distinguish the environment being referenced.
+
+**SQL Server -** This should be set to the SQL Server that hosts the EV Directory database.
+
+**Database name -** The EV Directory database name. e.g. EnterpriseVaultDirectory
+
+**Agent -** This is the server where the OnBoard Agent is installed.
+
+**Credentials -** The credentials are those of the Exchange admin, domain admin, or appropriate EV Service account.
+
+### Scheduled jobs
+
+Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
+
+At the bottom of this tab you will see the scheduled job list, which are as follows:
+
+**GetArchives -** Reads all Mail Archives from EV.
+
+**GetEVComputersAndServices -** Reads all EV Computers in a VaultSite and their installed EV Services.
+
+**GetEVServicesAndTaskStatus -** Gets the current status of all EV Services and Tasks.
+
+**GetRetentionCategories -** Gets list of the defined RetentionCategories from EV.
+
+**GetVaultSites -** Get all VaultSites in a VaultDirectory.
+
+**GetVaultStorage -** Gets the VaultStorage details.
+
+**GetVaultStorePartitions -** Gets the Vault Store Partitions.
+
 ## Additional columns for data grid on the Mappings screen
 
 You can modify which columns are displayed in the Mappings screen.  To add in additional columns, go to Settings --> On-Boarding (This is only accessible with the OnBoard admin permission)
 
 Select which columns you would like to add from the available list on the right hand panel, Extended Properties i.e. add in fields from AD, Exchange, the TransVault mailbox table etc
 
-Click Save when you are happy with your selection, then go back to the Mapping screen.  Onboard --> Mapping
+Click Save when you are happy with your selection, then go back to the Mapping screen.  Onboard > Mapping.
 
 Click on the Select columns icon to see your new list of available fields ![Seed](images/dt-04.png)
 

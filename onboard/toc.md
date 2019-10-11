@@ -16,6 +16,7 @@
 ### [Active Directory](configuration.md#configuring-active-directory-environment)
 ### [Exchange](configuration.md#configuring-exchange-environment)
 ### [TransVault](configuration.md#configuring-transvault-environment)
+### [EnterpriseVault](configuration.md#configuring-enterprise-vault-environment)
 
 ## [Additional columns](configuration.md#additional-columns-for-data-grid)
 
