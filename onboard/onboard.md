@@ -6,7 +6,7 @@ There are three stages to go through to get started with TransVault Onboard, and
 
 ### Agents and configuration
 
-At least one agent has to be deployed to an on-premise server in order to use the OnBoard features. Don't worry though, it's really easy to setup and configure. The instructions are covered in this [section](onboard.md#deploying-an-agent).
+At least one agent has to be deployed to an on-premises server in order to use the OnBoard features. Don't worry though, it's really easy to setup and configure. The instructions are covered in this [section](onboard.md#deploying-an-agent).
 
 ### Creating a workflow
 
