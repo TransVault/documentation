@@ -2,21 +2,21 @@
 
 Once the agent has been installed (typically this would be the Exchange On-premises server which would act as the PowerShell host where the exchange management shell is located), you will be presented with various tabs.
 
-**Agent notes**: When installing the agent, it's important to highlight that you must have one agent per datacentre. The agent is also forest specific i.e. if you have more than one Exchange server in different forests in different locations, then each one will need its own agent. Likewise, in a cross domain scenario, this would also require multiple agents.
+**Agent notes**: When installing the agent, it's important to highlight that you must have one agent per datacentre. The agent is also forest specific i.e. if you have more than one Exchange server in different forests in different locations, then each one will need its own agent. A cross domain scenario this would also require multiple agents.
 
 ### Configuring Active Directory environment
 
-The Active Directory tab is where you will find all the settings and configuration required with regards to the On-premises Active Directory.
+The Active Directory tab is where you will find all the settings and configuration required with regards to the on-premises Active Directory.
 
 **Agent -** This is the server where the agent is installed.
 
-**Credentials -** The credentials are those of either the Exchange admin or domain admin.
+**Credentials -** The credentials are those of either the Exchange admin or domain admin account.
 
 ### Scheduled jobs
 
 Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-At the bottom of this tab you will see the scheduled job list, which are as follows:
+At the bottom of this tab you will see the scheduled jobs list, which are as follows:
 
 **GetAdGroupsAndMembers -** Gets all AD groups and members in a Domain.
 
@@ -28,23 +28,23 @@ At the bottom of this tab you will see the scheduled job list, which are as foll
 
 ### Configuring Exchange environment
 
-The Exchange tab is where you will find all the settings and configuration required with regards to the Exchange server.
+The Exchange tab is where you will find all the settings and configuration required with regards to the on-premises Exchange server.
 
-**Environment name -** This is a memorable label / name that you can apply that helps you to distinguish the environment being referenced.
+**Environment name -** This will be a memorable label / name that helps you to distinguish the environment being referenced.
 
 **Exchange PowerShell Host -** This should be set to the server that contains the Exchange management shell and contains the PowerShell host for the environment.
 
 **Agent -** This is the server where the agent is installed.
 
-**Credentials -** The credentials are those of either the Exchange admin or domain admin.
+**Credentials -** The credentials are those of either the Exchange admin or domain admin account.
 
 ### Scheduled jobs
 
 Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-At the bottom of this tab you will see the scheduled job list, which are as follows:
+At the bottom of this tab you will see the scheduled jobs list, which are as follows:
 
-**TestMRSHealth -** This job tests / checks the MRS health of an instance of the Microsoft Exchange Mailbox Replication service.
+**TestMRSHealth -** This tests / checks the MRS health of an instance of the Microsoft Exchange Mailbox Replication service.
 
 **GetMigrationEndpoints -** GetMigrationEndpoints will retrieve all available migration endpoints within a Hybrid Environment.
 
@@ -62,7 +62,7 @@ At the bottom of this tab you will see the scheduled job list, which are as foll
 
 In this tab you can configure the required settings for any TransVault Migration server along with the scheduled jobs that relate to it. These jobs can be run at any time from the scheduled jobs window.
 
-**Environment name -** This is a memorable label / name that you can apply that helps you to distinguish the environment being referenced.
+**Environment name -** This will be a memorable label / name that helps you to distinguish the environment being referenced.
 
 **SQL Server -** This should be set to the SQL Server that hosts the TransVault database.
 
@@ -70,13 +70,13 @@ In this tab you can configure the required settings for any TransVault Migration
 
 **Agent -** This is the server where the OnBoard Agent is installed.
 
-**Credentials -** The credentials are those of either the Exchange admin or domain admin.
+**Credentials -** The credentials are those of either the Exchange admin or domain admin account.
 
 ### Scheduled jobs
 
 Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-At the bottom of this tab you will see the scheduled job list, which are as follows:
+At the bottom of this tab you will see the scheduled jobs list, which are as follows:
 
 **GetTVConnections -** This job fetches the configured connections in a TransVault Environment.
 
@@ -94,7 +94,7 @@ At the bottom of this tab you will see the scheduled job list, which are as foll
 
 The Enterprise Vault tab is where you will find all the settings and configuration required with regards to the source Enterprise Vault servers.
 
-**Environment name -** This is a memorable label / name that you can apply that helps you to distinguish the environment being referenced.
+**Environment name -** This will be a memorable label / name that helps you to distinguish the environment being referenced.
 
 **SQL Server -** This should be set to the SQL Server that hosts the EV Directory database.
 
@@ -102,13 +102,13 @@ The Enterprise Vault tab is where you will find all the settings and configurati
 
 **Agent -** This is the server where the OnBoard Agent is installed.
 
-**Credentials -** The credentials are those of the Exchange admin, domain admin, or appropriate EV Service account.
+**Credentials -** The credentials are those of the Exchange admin, domain admin, or appropriate EV Vault Store account.
 
 ### Scheduled jobs
 
 Within the configuration section you can edit the list of scheduled jobs, and configure their settings as required.
 
-At the bottom of this tab you will see the scheduled job list, which are as follows:
+At the bottom of this tab you will see the scheduled jobs list, which are as follows:
 
 **GetArchives -** Reads all Mail Archives from EV.
 
@@ -126,7 +126,7 @@ At the bottom of this tab you will see the scheduled job list, which are as foll
 
 ## Additional columns for data grid on the Mappings screen
 
-You can modify which columns are displayed in the Mappings screen.  To add in additional columns, go to Settings --> On-Boarding (This is only accessible with the OnBoard admin permission)
+You can modify which columns are displayed in the Mappings screen.  To add in additional columns, go to Settings --> On-Boarding (this is only accessible with the OnBoard admin permission)
 
 Select which columns you would like to add from the available list on the right hand panel, Extended Properties i.e. add in fields from AD, Exchange, the TransVault mailbox table etc
 

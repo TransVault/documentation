@@ -37,7 +37,7 @@ Once completed click Save Template. If the template is saved ok you will see the
 
 On the workflow pallette, Click the cog icon on your Mail User step.
 
-If you are choosing a previously created Template select the appropriate one from the drop down list.
+If you are selecting a previously created Template choose the appropriate one from the drop down list.
 
 ![Select Template](images/template-options.jpg)
 
