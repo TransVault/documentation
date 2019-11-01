@@ -39,4 +39,4 @@
 ## [Anomalies](monitoring/monitoring.md#anomalies)
 ## [Cloud](monitoring/monitoring.md#cloud)
 
-# [Support & Feedback](/support/index.html)
+# [Support & Feedback](support/index.md)
