@@ -31,4 +31,12 @@
 ### [Enabling mailbox level auditing](auditing/enabling-mbx-auditing.md)
 ### [Adding another user to the application](auditing/user-management.md)
 
+# [Monitoring](monitoring/index.md)
+## [Getting started](monitoring/monitoring.md#getting-started)
+## [Overview](monitoring/monitoring.md#overview)
+## [Server](monitoring/monitoring.md#server)
+## [Event Logs](monitoring/monitoring.md#event-logs)
+## [Anomalies](monitoring/monitoring.md#anomalies)
+## [Cloud](monitoring/monitoring.md#cloud)
+
 # [Support & Feedback](/support/index.html)
