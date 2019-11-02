@@ -1,9 +1,9 @@
-﻿# [InFlight](index.md)
+
+# [InFlight](index.md)
+## [Getting started](index.md#getting-started)
+## [User management](index.md#user-management)
 
 # [Reporting](reporting/index.md)
-
-## [Getting started](reporting/getting-started.md)
-## [Data collection](reporting/data-collection.md)
 
 ## General examples
 ### [Simple chart data](reporting/example-chart.md)
@@ -12,24 +12,22 @@
 ### [Email activity](reporting/example-email-activity.md)
 
 ## Additional activities
-### [Adding another user to the application](./reporting/user-management.md)
 ### [Scheduling a report](reporting/scheduling-report.md)
 ### [Removing a scheduled report](reporting/removing-a-report.md)
 
-# [Auditing](auditing/index.md)
-## [Getting started](auditing/gettingstarted.md)
-## [Main screen](auditing/main-screen.md)
-## [Performing a query](auditing/performing-a-query.md)
-## [Using the data grid](auditing/switching-to-data-grid.md)
-
+# [Auditing](auditing/auditing.md)
+## [Getting started](auditing/auditing.md#getting-started)
+## [Overview](auditing/auditing.md#overview)
+## [Performing a query](auditing/auditing.md#performing-a-query)
+### [Timeline view](auditing/auditing.md#timeline-view)
+### [Datagrid view](auditing/auditing.md#datagrid-view)
+### [Export results](auditing/auditing.md#export-results)
 ## Examples
-### [Show creation/deletion of Teams](auditing/example-teams.md)
-### [Mailbox changes](auditing/example-mailbox-changes.md)
-
+### [Creation/Deletion of Teams](auditing/auditing.md#creation-and-deletion-of-teams)
+### [Mailbox changes](auditing/auditing.md#mailbox-changes)
 ## Additional configuration
-### [Turning off auditing](auditing/turning-off-auditing.md)
-### [Enabling mailbox level auditing](auditing/enabling-mbx-auditing.md)
-### [Adding another user to the application](auditing/user-management.md)
+### [Enabling mailbox auditing](auditing/auditing.md#enabling-mailbox-auditing)
+### [Turning off auditing](auditing/auditing.md#turning-off-auditing)
 
 # [Monitoring](monitoring/index.md)
 ## [Getting started](monitoring/monitoring.md#getting-started)
