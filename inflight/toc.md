@@ -35,6 +35,7 @@
 ## [Getting started](monitoring/monitoring.md#getting-started)
 ## [Overview](monitoring/monitoring.md#overview)
 ## [Server](monitoring/monitoring.md#server)
+## [Process](monitoring/monitoring.md#process)
 ## [Event Logs](monitoring/monitoring.md#event-logs)
 ## [Anomalies](monitoring/monitoring.md#anomalies)
 ## [Cloud](monitoring/monitoring.md#cloud)
