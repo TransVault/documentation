@@ -20,3 +20,5 @@
 ## [Redirect URL](deployment.md#redirect-url)
 
 # [EULA](eula.md)
+
+# [Support & Feedback](../support/index.md)

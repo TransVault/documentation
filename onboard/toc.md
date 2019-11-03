@@ -24,3 +24,5 @@
 
 ## [Email Templates](howto.md#email-templates)
 ## [FAQ](faq.md)
+
+# [Support & Feedback](../support/index.md)
