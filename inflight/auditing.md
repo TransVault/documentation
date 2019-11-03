@@ -1,6 +1,4 @@
-# InFlight Auditing
-
-![Seed](../images/index.png)
+![Welcome](images/index.png)
 
 # Welcome
 
@@ -20,14 +18,14 @@ For further information on using the auditing module, review the menu on the lef
 # Overview
 Below is a screenshot showing the main auditing screen:
 
-![Seed](images/auditing-1.png)
+![](images/auditing/auditing-1.png)
 
 The page is divided into a number of sections as described below.
 
 ## Query area
 The query area is where you build queries to search your audited events:
 
-![Seed](images/auditing-2.png)
+![](images/auditing/auditing-2.png)
 
 There are many attributes of each audit event, we've tried to categorize and group things to help you make the best use of the information. We've split the query into:
 * **Workload**
@@ -48,17 +46,17 @@ There are many attributes of each audit event, we've tried to categorize and gro
 ## Anomaly detection
 This area of the main screen, shown below, indicates the state of the anomaly detection learning.
 
-![Seed](images/auditing-3.png)
+![](images/auditing/auditing-3.png)
 
 ## Audited events over a period of time
 The chart in the centre of the screen, shown below, shows information about the number of captured events per day, over the last 7 days:
 
-![Seed](images/auditing-4.png)
+![](images/auditing/auditing-4.png)
 
 ## Breakdown of captured audit events to date
 At the bottom of the main auditing screen are two charts which show a break down of the audited events captured to date. This gives an indication of the relative amounts of events captured per workload.
 
-![Seed](images/auditing-5.png)
+![](images/auditing/auditing-5.png)
 
 **Note**: Not all audit events from Microsoft capture a location. In time it is hoped the range of events showing location information will increase, but this is reliant on Microsoft.
 
@@ -68,32 +66,32 @@ The simplest of queries to see the quantity of information available to you can 
 
 When that is performed the data matching your search is obtained from our system, and displayed on screen. In the example below you can see the date range was adjusted to show 18th June to 25th June:
 
-![Seed](images/query-1.png)
+![](images/auditing/query-1.png)
 
 After the query has run, the page updates to show you the quantity of audit events matching your search, a map showing you where some of the auditable activities were performed and beneath that is a time-line of activities:
 
-![Seed](images/query-2.png)
+![](images/auditing/query-2.png)
 
 
 ## Timeline View
 
 The timeline of audited events shows important information relating to individual captured audit events. One event might look like this:
 
-![Seed](images/timeline-0.png)
+![](images/auditing/timeline-0.png)
 
 In the box surrounding the event there is small arrow which can be clicked to expand out the event to show all of the captured event metadata, as shown below:
 
-![Seed](images/timeline-1.png)
+![](images/auditing/timeline-1.png)
 
 ## DataGrid View
 
 Above and to the right of the time is an icon which can be clicked to switch to the data grid view. The icon is highlighted in the screenshot below:
 
-![Seed](images/switch-to-data-grid.png)
+![](images/auditing/switch-to-data-grid.png)
 
 The data grid view looks like this:
 
-![Seed](images/data-grid.png)
+![](images/auditing/data-grid.png)
 
 On this view you can perform further filtering if required (scroll to the bottom and type into the boxes). You can change the sort order of events, indicate specific events which are of interest, and more!
 
@@ -102,7 +100,7 @@ On this view you can perform further filtering if required (scroll to the bottom
 
 The data grid view also allows you to create a PDF of the results of your audit query. This is made available to you immediately, and can be stored, printed, or sent via email.
 
-![Seed](images/event-report-button.png)
+![](images/auditing/event-report-button.png)
 
 # Examples
 
@@ -112,17 +110,17 @@ Below is an example of how to build a query to review events relating to creatio
 ### The query
 In this example we choose two activities from the 'Activity' dropdown list, and we change the date range. The query parameters look like this:
 
-![Seed](images/example-teams-1.png)
+![](images/auditing/example-teams-1.png)
 
 ### Reviewing the results
 When the search is executed the results come back almost instantly, and look similar to those below:
 
-![Seed](images/example-teams-2.png)
+![](images/auditing/example-teams-2.png)
 
 ### Seeing the detail of an events
 As well as reiewing the timeline of events to get an overall picture of how teams have been created and removed, individual events can be examined, as shown below:
 
-![Seed](images/example-teams-3.png)
+![](images/auditing/example-teams-3.png)
 
 **Note**: Not all audit events from Microsoft capture a location. In time it is hoped the range of events showing location information will increase, but this is reliant on Microsoft.
 
@@ -132,16 +130,16 @@ Below is an example of how to build a query to review changes made to mailboxes 
 ### The query
 In this query we have changed the workload, as we're only interested in Exchange. We've changed the date range, chosen to do a full text query for 'set-mailbox', and indicated the administrator name.
 
-![Seed](images/example-mailbox-1.png)
+![](images/auditing/example-mailbox-1.png)
 
 ### Reviewing the results
 We can get an overall sense of the activities performed over the date range by reviewing the chart shown below:
 
-![Seed](images/example-mailbox-2.png)
+![](images/auditing/example-mailbox-2.png)
 
 We can also see the timeline of events which indicates which mailboxes have been changed:
 
-![Seed](images/example-mailbox-3.png)
+![](images/auditing/example-mailbox-3.png)
 
 **Note**: Not all audit events from Microsoft capture a location. In time it is hoped the range of events showing location information will increase, but this is reliant on Microsoft.
 
@@ -214,7 +212,7 @@ If you wish to view the audit events that are being captured by the application,
 
 3. You will be presented with a list of the subscription types and whether they are enabled for collection
 
-    ![Seed](images/subscription-list.png)
+    ![](images/auditing/subscription-list.png)
 
 ### Changing audit capture
 
@@ -226,11 +224,11 @@ You may wish to change the audit events which are captured, to do that follow th
 
 3. You will be presented with a list of the subscription types and whether they are enabled for collection
 
-    ![Seed](images/subscription-list.png)
+    ![](images/auditing/subscription-list.png)
 
 4. Each of the categories can be clicked on, and they will be disabled or enabled as required, as shown below:
 
-    ![Seed](images/subscription-list2.png)
+    ![](images/auditing/subscription-list2.png)
 
 
 **Note**: It can take a few hours for Microsoft to make these changes in their systems. This means that if you have enabled additional auditing options it can take a short time before they are visible in the application.
