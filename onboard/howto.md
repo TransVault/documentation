@@ -63,7 +63,7 @@ This step was created specifically for those projects where you want to avoid th
 
 **SSL** - Select Yes/No depending on whether SSL is required
 
-**SMTP Server** - The name of the SMTP server the emails are going to be sent variables
+**SMTP Server** - The name of the SMTP server the emails are going to be sent via.
 
 **SMTP Port** - 25 or 465
 

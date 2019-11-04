@@ -137,7 +137,7 @@ Assign an Office 365 license to the recently created users mailbox so that it ca
 7) **Communication Step - *Mail User*.**  
 Email the user and advise them that their mailbox has now been moved into Office 365, and that they will need to restart Outlook.
 
-You can add in more wait steps or communication steps as are required for your specific project, but this process forms a simple framework for moving a user's mailbox into Office 365.
+You can add in more wait steps or communication steps as required for your specific project, but this process forms a simple framework for moving a user's mailbox into Office 365.
 
 ## Mapping a pilot user
 
