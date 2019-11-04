@@ -4,7 +4,6 @@
 
 ## Welcome
 
-
 You are now reviewing the documentation for our product.
 
 Our aim with this documentation is to give you an overview of what you can see inside the application,
@@ -61,8 +60,7 @@ From time to time you might want to give the ability for additional people to be
 
 1. Click on `Settings` in the left hand navigation bar.
 2. Click on the `Security` tab.
-3. You will be presented with a list of the users who have access to the application as shown below:
-    ![Seed](images/user-list.png)
+3. You will be presented with a list of the users who have access to the application.
 4. At the bottom left of the data grid click on the `Add user` button.
 5. Provide the user principal name of the person you want to give access to.
 6. Select the components of the application that you wish this person to have access to, and confirm by clicking on the `submit` button.
@@ -73,8 +71,7 @@ From time to time you might want to change the roles associated with people who 
 
 1. Click on `Settings` in the left hand navigation bar.
 2. Click on the `Security` tab.
-3. You will be presented with a list of the users who have access to the application as shown below:
-    ![Seed](images/user-list.png)
+3. You will be presented with a list of the users who have access to the application.
 4. You can edit the user roles by clicking on the small `edit` icon to the right of the user in the data grid.
     ![Seed](images/edit-user.png)
 
@@ -84,8 +81,7 @@ From time to time you might want to remove people from access to the application
 
 1. Click on `Settings` in the left hand navigation bar.
 2. Click on the `Security` tab.
-3. You will be presented with a list of the users who have access to the application as shown below:
-    ![Seed](images/user-list.png)
+3. You will be presented with a list of the users who have access to the application.
 4. You can remove a user by clicking on the small delete icon to the right of the data grid.
     ![Seed](images/delete-user.png)
 5. A pop-up dialog will give you the options for the user. Components of the application can be added and removed, and changes confirmed by clicking on `submit`
