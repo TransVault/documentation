@@ -1,4 +1,4 @@
-![Welcome](images/index.png)
+![Welcome](../images/welcome.jpg)
 
 # Welcome
 

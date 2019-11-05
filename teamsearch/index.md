@@ -1,6 +1,6 @@
 # TeamSearch ![](images/ts.png)
 
-![Welcome](images/welcome.jpg)
+![Welcome](../images/welcome.jpg)
 
 You are now reviewing the TeamSearch help documentation.
 

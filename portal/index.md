@@ -1,6 +1,6 @@
 Portal
 ===============
-![Welcome](images/welcome.jpg)
+![Welcome](../images/welcome.jpg)
 
 Welcome
 ---------------

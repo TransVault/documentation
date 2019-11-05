@@ -11,7 +11,6 @@ Below you will find a list of the most commonly asked questions regarding OnBoar
 Depending on your environment you might also need to whitelist the following sites and/or allow access through your firewall.  
 
 *.transvault.com  
-*.cloudficient.com  
 
 Geotag APIs  
 http://api.ipstack.com  
