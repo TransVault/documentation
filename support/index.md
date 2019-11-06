@@ -1,11 +1,11 @@
 # Support
 Whether you have a general 'how to' question, questions about a specific report, or anything else, we're available to help you.
 
-<center><button onclick="location.href='mailto:inflight.support@transvault.com';" type="button" class="btn btn-primary">Contact our support team!</button></center>
-<br>
-<center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#supportModal">Give us your feedback!</button></center>
+
+
 
 # Feedback
+
 We are very keen to hear about your experiences. Any improvements, suggestions, and comments are welcome. We review every piece of
 feedback that we receive, and if we need to we'll reach out to you to get additional information.
 
@@ -38,33 +38,6 @@ feedback that we receive, and if we need to we'll reach out to you to get additi
     </div>
 </div>
 
-<!-- supportModal -->
-<div id="supportModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title">Support</h3>
-            </div>
-            <form>
-            <div class="modal-body">
-              <b>Email</b>
-              <input class="form-control" type="email" id="sEmail" placeholder="name@company.com" required>
-              <br>
-              <b>Comments</b>
-              <textarea class="form-control" id="sFeedback" rows="4" placeholder="Any questions, issued"></textarea>
-              <br>
-              <p id="info"></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="supportMail()">Send</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
-
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script>
 function myFunction() {
@@ -80,21 +53,5 @@ function myFunction() {
     }).then(
         document.getElementById("info").innerHTML = "Submitted"
     );
-}
-
-function supportMail() {
-  console.log(sFeedback.value);
-  console.log(sEmail.value);
-
-  Email.send({
-    SecureToken : "494246b5-9be7-4736-aabf-56db44de940e",
-    To : 'inflight.support@transvault.com',
-    From : "tcp@transvault.com",
-    Subject : "Help Support - " + sEmail.value,
-    Body : sFeedback.value
-    }).then(
-      message => alert(message)
-    );
-  document.getElementById("info").innerHTML = "Submitted";
 }
 </script>

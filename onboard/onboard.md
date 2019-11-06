@@ -20,7 +20,13 @@ The final step in using OnBoard is to map a test (or pilot) user. The instructio
 
 The following steps describe how to deploy and authorize an agent.  All of these steps take place on the 'Agents' tab inside the OnBoard application.
 
-Before installing the agent you must ensure that [Windows Management Framework 5.1](https://go.microsoft.com/fwlink/?linkid=839516) is installed on the server where the agent is to be deployed.
+Before installing the agent you must ensure that [PowerShell 6.2](https://github.com/PowerShell/PowerShell) is installed on the server where the agent is to be deployed.
+
+To install PowerShell Core on Windows using a single command line from Windows PowerShell:
+```
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+```
+
 
 **Note**: If an agent is deployed but not authorized, it will not be used by OnBoard.
 
