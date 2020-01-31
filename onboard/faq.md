@@ -14,7 +14,6 @@ Depending on your environment you might also need to whitelist the following sit
 
 Geotag APIs  
 http://api.ipstack.com  
-https://wtfismyip.com  
 http://checkip.amazonaws.com  
 https://icanhazip.com  
 https://api.ipify.org  
