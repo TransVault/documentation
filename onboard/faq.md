@@ -19,6 +19,9 @@ https://icanhazip.com
 https://api.ipify.org  
 https://ipinfo.io  
 
+**Q** - Which version of TLS does the OnBoard agent use?  
+**A** - The OnBoard agent uses TLS 1.3
+
 **Q** - If I have plugin updates pending in addition to an agent update, do I need to update the agent version first?  
 **A** - Plugin updates are backwards compatible so whilst there is no specific requirement to update the agent as well (if applicable), we would recommend time is scheduled outside of workflows being run so that all can be updated to the latest versions available.
 
