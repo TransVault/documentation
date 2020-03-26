@@ -2,7 +2,7 @@
 
 ## [Getting started](onboard.md#getting-started)
 ## [Deploying an agent](onboard.md#deploying-an-agent)
-## [Creating a workflow](onboard.md#creating-a-workflow)
+## [Creating a workflow](onboard.md#creating-a-new-workflow)
 ## [Mapping a pilot user](onboard.md#mapping-a-pilot-user)
 ## [Moving a mailbox to Office 365](onboard.md#moving-a-mailbox-to-office-365)
 ## [Batching](onboard.md#batching-1)

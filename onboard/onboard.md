@@ -10,7 +10,7 @@ At least one agent has to be deployed to an on-premises server in order to use t
 
 ### Creating a workflow
 
-After the agent is properly configured the next step is to create a workflow. The instructions are covered in this [section](onboard.md#creating-a-workflow).
+After the agent is properly configured the next step is to create a workflow. The instructions are covered in this [section](onboard.md#creating-a-new-workflow).
 
 ### Mapping the first user
 
@@ -68,7 +68,7 @@ Depending on the role of the agent additional agent-side plugins can be added to
 
 ![Seed](images/agent-plugins.png)
 
-## Creating a Workflow
+## Creating a New Workflow
 
 A workflow is an essential element of TransVault OnBoard. It consists of a number of workflow steps which will be executed in order to process a user or group of users.
 
