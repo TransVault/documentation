@@ -226,4 +226,4 @@ This tab gives summary information relating to batches that have been created in
 
 The mappings tab gives details about individual users that have been processed or are being processed. If a user is selected you can quickly see the individual steps that have been performed i.e. which ones have been completed, current step in progress or whether any steps have failed.  
 
-![Seed](images/workflow-steps.png "Workflow Steps")
+![Seed](images/mapping-status.jpg "Workflow Steps")
