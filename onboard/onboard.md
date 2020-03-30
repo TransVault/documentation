@@ -81,7 +81,7 @@ All of the workflow template activities take place on the Workflows tab and are 
 
 The main workflow template editor window looks like this:
 
-![Seed](images/workflow-canvas.png)
+![Seed](images/the-canvas.jpg)
 
 In here you can retrieve previously saved templates, as well as configure new ones.  You begin by dragging and dropping workflow steps on to the canvas. You can arrange them however you like, but we would recommend placing them into a logical order to make following the workflow easier.
 
@@ -89,27 +89,27 @@ In here you can retrieve previously saved templates, as well as configure new on
 
 In this simple example we will expand the 'Communication steps' group of workflow steps and drag and drop two communication steps. These are shown below:
 
-![Seed](images/workflow_email.png "Email Steps")
+![Seed](images/communication.jpg "Email Steps")
 
 ### Introducing a delay
 
 For our example we want to introduce a few minutes delay between the email steps. This is achieved by dragging and dropping a 'Wait steps' workflow step. We now have a template like this:
 
-![Seed](images/workflow-addingwait-1.png)
+![Seed](images/delay.jpg "Wait TimeSpan")
 
 ### Joining the steps
 
 The steps in a workflow need to be joined together to create the logical flow of the process. Simply click and drag from the text of one workflow step, to the next in the sequence. Repeat that process for each step, and you will see the following:
 
-![Seed](images/workflow-joining.png)
+![Seed](images/join-steps.jpg)
 
 ### Configuring the steps
 
 Some of the steps have configuration options available to them. That's identified by the small cog-icon on the workflow step when it's on the canvas. If you click that it will show a pop-up and allow you to configure the required elements for that specific workflow step.
 
-For our example on the user communication step, we can configure a template email to send to the user. Similarly in the administration communication step we can configure a template to send, and we can configure who the email will go to. Lastly, our wait step allows us to configure how long we want to wait e.g. 5 minutes.
+For our example on the user communication step, we can configure a template email to send to the user. Similarly in the administration communication step we can configure a template to send, and we can configure who the email will go to. Lastly, our wait step allows us to configure how long we want to wait in minutes, hours or days.
 
-![Seed](images/workflow-addingwait-2.png)
+![Seed](images/wait-time.jpg)
 
 
 ### Finally, saving the workflow
@@ -122,25 +122,25 @@ The final step is to save the workflow template. We can give the template a frie
 
 A typical workflow template to move an on-premises mailbox into Office 365 might contain the following steps.
 
-1) **Communication Step - *Mail User*.**  
+1) **Communication - *Cloud - Send user mail*.**  
 Advise the user in advance that their mailbox will be moved into Office 365 in X number of days.  This step requires a MSG template file and can contain personalised details like FirstName and LastName to ensure the email is tailored for the end user.
 
-2) **Communication Step - *Mail administrator*.**  
+2) **Communication - *Cloud - Send admin mail*.**  
 Send an email to a specific administrative email address confirming that the user has been successfully notified.  This step also requires a MSG template file.
 
-3) **Wait Steps  - *Wait Time*.**  
-Set a timed delay for X amount of days/hours etc before the next step is processed.
+3) **Wait - *Trigger -TimeSpan*.**  
+Set a timed delay for X amount of minutes, hours or days before the next step is processed.
 
-4) **Office 365 - *Preflight primary to cloud*.**  
-Run checks against the on-premise Exchange to ensure the account exists and the email address is valid.
+4) **Office 365 - Exchange Hybrid - *Preflight - Mailbox move*.**  
+Check Office 365 permissions and mail addresses are valid.
 
-5) **Office 365 - *Move primary to cloud*.**  
-Initiate the move of the users mailbox into Office 365.
+5) **Office 365 - Exchange Hybrid - *Move - Primary*.**  
+Initiate the move of the user's mailbox into Office 365.
 
-6) **User and License Steps - *Assign a license*.**  
+6) **User and License - *Assign - License*.**  
 Assign an Office 365 license to the recently created users mailbox so that it can be accessed.
 
-7) **Communication Step - *Mail User*.**  
+7) **Communication - *Cloud - Send user mail*.**  
 Email the user and advise them that their mailbox has now been moved into Office 365, and that they will need to restart Outlook.
 
 You can add in more wait steps or communication steps as required for your specific project, but this process forms a simple framework for moving a user's mailbox into Office 365.
