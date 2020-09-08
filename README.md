@@ -28,7 +28,7 @@ c:\docfx\docfx.exe c:\docs\docfx.json --serve
 ```
 
 ## [GitHub repository](https://github.com/TransVault/documentation)
-You will need a GitHub account if you wish to contribute to our documentation library. If you do not have an account, you can sign up for a free one [here](https://github.com/join).
+You will need a GitHub account if you wish to contribute to our documentation library. If you do not yet have an account, you can sign up for a free one [here](https://github.com/join).
 
 Once your account has been created you will need to advise Wayne of your loginID, so that you can be assigned the relevant permissions to the TransVault repository.
 
